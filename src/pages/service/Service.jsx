@@ -1,5 +1,5 @@
 const Service = () => {
-    return <div>Service</div>;
+    return <section className="container mx-auto">Service</section>;
 };
 
 export default Service;
