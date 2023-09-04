@@ -13,7 +13,7 @@ const Hero = () => {
                         </h1>
 
                         <p className="text-base leading-6 lg:text-4xl lg:leading-[57px]">
-                            Join Our Developer <br /> Dream Team....!
+                            Join our Developer <br /> Dream Team....!
                         </p>
                     </div>
 
