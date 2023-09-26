@@ -5,10 +5,20 @@ import Main from '../../components/layouts/Main';
 const Career = () => {
     return (
         <Main>
-            <Careers />
-            <JobOpening />
-            <Benefits />
-            <WorkArrangement />
+            <div className="yellowBlushLeft">
+                <div className="blueBlushRightSmall">
+                    <div className="">
+                        <Careers />
+                    </div>
+                    <JobOpening />
+                </div>
+            </div>
+            <div className="yellowBlushRight">
+                <div className="radialLeft">
+                    <Benefits />
+                </div>
+                    <WorkArrangement />
+            </div>
         </Main>
     );
 };

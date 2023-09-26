@@ -4,10 +4,20 @@ import Main from '../../components/layouts/Main';
 const Service = () => {
     return (
         <Main>
-            <OurServices />
-            <MoreServices />
-            <DevProcess />
-            <Technologies />
+            <div className="yellowBlushRight">
+                <div className="blueBlushLeftBig">
+                    <div className="radialLeft">
+                        <OurServices />
+                    </div>
+                <MoreServices />
+                </div>
+            </div>
+            <div className="yellowBlushLeft">
+                <div className="blueBlushRight">
+                <DevProcess />
+                <Technologies />
+                </div>
+            </div>
         </Main>
     );
 };

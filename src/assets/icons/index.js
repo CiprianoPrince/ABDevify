@@ -1,3 +1,6 @@
+// global icons
+export { default as circleIcon } from './global/circle2.svg';
+
 // footer icons
 export { default as facebook } from './footer/facebook.svg';
 export { default as linkedin } from './footer/linkedin.svg';

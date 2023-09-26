@@ -4,10 +4,22 @@ import { CompanyOverview, CoreValues, MissionVision, MeetTheTeam } from './secti
 const About = () => {
     return (
         <Main>
-            <CompanyOverview />
-            <MissionVision />
-            <CoreValues />
-            <MeetTheTeam />
+            <div className="yellowBlushLeft">
+                <div className="blueBlushRight">
+                    <div className="radialLeft">
+                        <CompanyOverview />
+                    </div>
+                    <MissionVision />
+                </div>
+            </div>
+            <div className="yellowBlushLeft">
+                <div className="radialRight">
+                    <CoreValues />
+                </div>
+                <div className="blueBlushRightSmall">
+                    <MeetTheTeam />
+                </div>
+            </div>
         </Main>
     );
 };

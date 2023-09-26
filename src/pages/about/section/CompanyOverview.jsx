@@ -10,7 +10,7 @@ const CompanyOverview = () => {
                 </Heading>
             </div>
 
-            <div className=" bg-[#1E1E20]/70">
+            <div className=" bg-[#1e1e20e6]/70">
                 <section className="container mx-auto space-y-8 px-6 py-8 lg:space-y-12 lg:py-12">
                     <Heading className="text-center lg:text-start" tag="h2">
                         <span className="text-accent-500">COMPANY</span> OVERVIEW
