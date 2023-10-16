@@ -10,6 +10,7 @@ import 'swiper/css/scrollbar';
 import '../home.css';
 
 import { testimonialImage } from '../../../assets/images';
+import { homeData } from '../../../data';
 
 const sliderArray = new Array(6).fill(undefined);
 
@@ -33,7 +34,7 @@ const Testimonials = () => {
                     autoplay
                     grabCursor={true}
                 >
-                    {sliderArray.map((el, i) => (
+                    {homeData.employeeTestominalData.map((el, i) => (
                         <SwiperSlide
                             className="flex justify-center pb-20 pt-8 lg:py-10"
                             key={i}

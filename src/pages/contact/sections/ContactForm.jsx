@@ -152,7 +152,7 @@ const ContactForm = () => {
                 >
                     {isloading ? (
                         <>
-                            <span className="animate-spin mb-1 inline-block aspect-square h-6 w-6 rounded-full border-4 border-primary-950/50 border-s-primary-950 border-t-primary-950 p-2 hover:bg-accent-500" />
+                            <span className="mb-1 inline-block aspect-square h-6 w-6 animate-spin rounded-full border-4 border-primary-950/50 border-s-primary-950 border-t-primary-950 p-2 hover:bg-accent-500" />
                             Sending
                         </>
                     ) : (
